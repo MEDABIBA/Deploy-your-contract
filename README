@@ -1,0 +1,19 @@
+# Fast and Safe Contract Deployment
+
+This script allows you to deploy your smart contract quickly and safely to EVM-compatible networks like Velas Testnet.
+
+## Prerequisites
+
+- Node.js v18+
+- Hardhat
+### Installed dependencies:
+
+- yarn install 
+
+### Configure Network
+Edit hardhat.config.ts to set your network and account (private key).
+
+### Deploy Contract
+Run the deployment script:
+``` bash
+npx hardhat run scripts/deploy.ts --network YOUR_NETWORK
