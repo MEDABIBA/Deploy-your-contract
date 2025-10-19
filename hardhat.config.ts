@@ -12,9 +12,12 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    sepolia: {
-      url: "https://sepolia.infura.io/v3/7fbde31208034b8491c407c70cbd2379",
-      accounts: ["bb1be169d29c436dbc2803aee09ddda41c0bf747b466a33161d75c380bc3b580"],
+    velasTestnet: {
+      url: "RPC_URL_HERE",
+      chainId: 111,
+      accounts: [
+        `PRIVATE_KEY_HERE`,
+      ],
     },
   },
 };
